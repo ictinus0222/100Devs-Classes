@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: .5px solid black; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* 
+Header
+*/
+header {
+    background-color: black;
+    height: 60px;
+    color: white;
+
+}
+header li {
+    list-style: none;
+    padding: 15px;
+    float: left;
+    justify-content: space-around;
+    
+}
+header img {
+    width: 70px;
+}
+/* 
+main
+*/
+main {
+    flex-flow: row wrap;
+    padding: 30px;
+}
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    
+}
+#big-photo {
+    float: left;
+    height: 500px;
+    width: 700px;
+    background-image: url("https://placecats.com/neo/700/500");
+    background-color: black;
+    padding: 300px 50px 50px 50px;
+    color: white;
+}
+
+#small-photos {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#small-photos div{
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    background-image: url("https://placecats.com/300/200");
+    background-color: black;
+    padding: 100px 0px 0px 0px;
+    color: white;
+}
+#down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#last {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#last div{
+    width: 33.33%;
+    padding: 15px;
+}

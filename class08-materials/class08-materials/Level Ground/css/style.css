@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+/* 
+##################
+Header
+##################
+*/
+header {
+  background-color: #66768a;
+  height: 20vh;
+}
+header nav {
+  display: flex;
+  padding: 15px;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+}
+.donate-button {
+  background-color: white;
+  color: #66768a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/* 
+##################
+Main
+##################
+*/
+#intro {
+  background-color: #66768a;
+  height: 80vh;
+  padding-top: 15vh;
+  text-align: center;
+}
+#intro h1 {
+  color: white;
+  font-size: 4em;
+  margin-bottom: 1em;
+}
+#intro p {
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  padding: 0 10% 5% 10%;
+}
+#intro a{
+  background-color: white;
+  color: #66768a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* 
+##################
+why-volunteer
+##################
+*/
+.why-volunteer {
+  background-color: white;
+  height: 80vh;
+  padding-top: 20vh;
+  text-align: center;
+}
+.why-volunteer h2 {
+  color: black;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+.why-volunteer p {
+  color: black;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  padding: 0 10% 5% 10%;
+}
+/* 
+##################
+visit
+##################
+*/
+#visit {
+  background-color: #dbdfe2;
+  height: 100vh;
+  display: flex;
+}
+.visit-card{
+  width: 50%;
+  text-align: center;
+  padding-top: 20vh;
+}
+.visit-card img {
+  background-color: #66768a;
+}
+.visit-card h3 {
+  color: black;
+  font-size: 2em;
+  margin: 1em 0;
+}
+.visit-card p {
+  color: black;
+  font-size: 1em;
+  margin-bottom: 1em;
+  padding: 0 10% 5% 10%;
+}
+.button{
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+/* 
+##################
+footer
+##################
+*/
+footer {
+  background-color: #161f2a;
+}
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+#footer-left li, #footer-right ul {
+  display: inline;
+  color: white;
+  padding: 10px;
+}
+#footer-left h5 {
+  color: white;
+  padding: 10px;
+}
+#footer-right {
+  color: white;
+  margin-right: 20px;
+}
+#footer {
+  padding: 15px;
+}
+.bottom-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-line p {
+  color: white;
+  padding: 20px;
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+  list-style-type: none;
+}
+
+
+header {
+  width: 15%;
+  float: left;
+}
+#hero {
+  width: 65%;
+  float: left;
+}
+#side-hero {
+  width: 20%;
+  float: left;
+}
+#latest {
+  margin-left:15%; 
+  width: 85%;
+  float: left;
+  display: flex;
+}

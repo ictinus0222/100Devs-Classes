@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header nav {
+  padding: 10px 20px 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin-right: 20px;
+}
+main {
+  display: flex;
+}
+main section{
+  width: 50%;
+}
+
+#text {
+  padding-top: 200px;
+}
+#text h1 {
+  width: 80%;
+  font-size: 70px;
+  font-weight: bold;
+}
+#text span{
+  font-size: 18px;
+  margin-right: 40px;
+}
+#text a {
+  background-color: rgb(47, 102, 242);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px;
+}

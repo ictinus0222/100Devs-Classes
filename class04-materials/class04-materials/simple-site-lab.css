@@ -1,0 +1,41 @@
+body {
+  display: block;
+  background-color: #87cfeb;
+  padding: 30px;
+  border: 5px solid #56cd5a;
+  box-sizing: border-box;
+  margin: 30px 400px 30px 400px;
+}
+header {
+  text-align: center;
+  font-family: roboto;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #56cd5a;
+}
+header h1 {
+  font-family: Spectral;
+  font-style: italic;
+  color: white;
+}
+h2 {
+  color: white;
+  font-family: Roboto;
+}
+
+img {
+  display: float;
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+p {
+  font-size: 20px;
+  color: whitesmoke;
+}
+footer {
+  text-align: center;
+  font-family: roboto;
+}

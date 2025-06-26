@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+header,
+footer {
+  height: 100px;
+  border: 2px solid grey;
+  clear: both;
+  text-align: center;
+}
+.column1 {
+  height: 400px;
+  width: 15%;
+  float: left;
+  border: 2px solid gray;
+  text-align: center;
+}
+.column2 {
+  height: 400px;
+  width: 55%;
+  float: left;
+  border: 2px solid gray;
+  text-align: center;
+}
+.column3 {
+  height: 400px;
+  width: 15%;
+  float: left;
+  border: 2px solid gray;
+  text-align: center;
+}
+.column4 {
+  height: 400px;
+  width: 15%;
+  float: left;
+  border: 2px solid gray;
+  text-align: center;
+}

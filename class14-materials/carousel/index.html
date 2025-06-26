@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Simulation</title>
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .input-section {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        input {
+            padding: 8px;
+            font-size: 16px;
+            width: 100px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        #output {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+            min-height: 200px;
+            border: 1px solid #ddd;
+            white-space: pre-line;
+        }
+        .carousel-animation {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 24px;
+            color: #e74c3c;
+        }
+    </style> -->
+</head>
+<body>
+    <div class="container">
+        <h1>Carousel Simulation</h1>
+        
+        <div class="input-section">
+            <label for="numTurns">How many turns would you like?</label>
+            <input type="number" id="numTurns" min="1" value="10">
+            <button id="startButton">Start Carousel</button>
+        </div>
+        
+        <div class="carousel-animation" id="carouselAnimation">🎠</div>
+        
+        <div id="output">Welcome to the Carousel!</div>
+    </div>
+
+    <!-- <script>
+        const outputDiv = document.getElementById('output');
+        const startButton = document.getElementById('startButton');
+        const numTurnsInput = document.getElementById('numTurns');
+        const carouselAnimation = document.getElementById('carouselAnimation');
+        
+        // Function to add text to the output
+        function appendToOutput(text) {
+            outputDiv.textContent += '\n' + text;
+            outputDiv.scrollTop = outputDiv.scrollHeight;
+        }
+        
+        // Function to clear the output
+        function clearOutput() {
+            outputDiv.textContent = 'Welcome to the Carousel!';
+        }
+        
+        // Function to run the carousel
+        async function runCarousel(numTurns) {
+            clearOutput();
+            appendToOutput(`Starting the carousel for ${numTurns} turns...`);
+            
+            // Disable the button while carousel is running
+            startButton.disabled = true;
+            
+            // Animation symbols
+            const symbols = ['🎠', '🎡', '🎪', '🎢'];
+            let symbolIndex = 0;
+            
+            for (let turn = 1; turn <= numTurns; turn++) {
+                // Update the animation
+                carouselAnimation.textContent = symbols[symbolIndex % symbols.length];
+                symbolIndex++;
+                
+                // Add the turn information
+                appendToOutput(`Turn ${turn} of the carousel`);
+                
+                // Wait for a moment to simulate the turn
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+            
+            appendToOutput("The carousel has stopped. Hope you enjoyed the ride!");
+            
+            // Reset the animation and enable the button
+            carouselAnimation.textContent = '🎠';
+            startButton.disabled = false;
+        }
+        
+        // Add event listener to the button
+        startButton.addEventListener('click', function() {
+            const numTurns = parseInt(numTurnsInput.value);
+            
+            if (isNaN(numTurns) || numTurns <= 0) {
+                appendToOutput("Please enter a positive number of turns.");
+                return;
+            }
+            
+            runCarousel(numTurns);
+        });
+    </script> -->
+</body>
+</html>
