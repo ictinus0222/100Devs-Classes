@@ -15,6 +15,8 @@ function TonyHawkProSkater (name, ability, level, superMove, taunt) {
     }
 
     this.specialMoveGo = function () {
-        console.log(`Let's ${this.superMove}`);
+        console.log(`Don't make me use my ${this.superMove}`);
     }
 }
+
+let Tiger = new TonyHawkProSkater('Tiger', 'Multiple flips', 30, 'KA-ME-HA-ME-HAAAA', 'fuck you nigga');
