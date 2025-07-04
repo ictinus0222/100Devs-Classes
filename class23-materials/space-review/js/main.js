@@ -9,7 +9,7 @@ alert(sum);
 
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
-let newArr = array.map(num = num ** 2);
+let newArr = num => array.map(num = num ** 2);
 alert(newArr);
 //Create a function that takes string
 //Print the reverse of that string to the console
