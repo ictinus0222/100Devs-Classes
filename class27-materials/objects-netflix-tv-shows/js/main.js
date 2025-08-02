@@ -22,3 +22,4 @@ class MakeNetflixTvShows {
     }
 }
 
+let breakingBad = new MakeNetflixTvShows("Drama", "Breaking Bad", "English", "TV Series", "4k")
